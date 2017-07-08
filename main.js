@@ -24,7 +24,7 @@ $(document).ready(function(){
  //Function for image api
  function changeImage() {   
   $.ajax({
-  url: "https://api.unsplash.com/photos/random?client_id=336b527b2e18d045045820b78062b95c825376311326b2a08f9b93eef7efc07b",
+  url: "https://api.unsplash.com/photos/random?client_id=b8807aacf1d71d738e2fbd0c753f352e1a6d190202ef84f584ce648b34c70dcf",
   cache: false,
   success: function(result){
     randomPhoto = result.urls.regular;
