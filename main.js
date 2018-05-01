@@ -7,7 +7,7 @@ $(document).ready(function(){
   //Function for quote api
   function getNewQuote(){  
 	$.ajax({
-	  url: 'https://cors-anywhere.herokuapp.com/http://quotes.stormconsultancy.co.uk/random.json',
+	  url: 'http://quotes.stormconsultancy.co.uk/random.json',
       success: function(response) {
 	     quote =  response.quote;
 		 author = response.author;
